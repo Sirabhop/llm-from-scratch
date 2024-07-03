@@ -31,6 +31,7 @@ Defines parameters that control model training and behavior:
 ### Bigram Language Model:
 
 BigramLanguageModel: A simple language model that predicts the next character based only on the previous character (a bigram).
+
 Includes methods for:
 - forward: Making predictions and calculating loss.
 - generate: Generating text.
@@ -53,6 +54,6 @@ Includes methods for:
 - Multiple blocks for deeper processing.
 - Layer normalization and a linear layer for final prediction.
 
-### Methods for:
+Methods for:
 - _init_weights: Initializing model parameters.
 - forward: Making predictions and calculating loss.
